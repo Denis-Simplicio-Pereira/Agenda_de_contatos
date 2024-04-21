@@ -20,7 +20,7 @@ function adicionaLinha() {
         alert(`O nome ${inputNome.value} já foi inserido`);
     } else {
         nomes.push(inputNome.value);
-        telefones.push(parseFloat(inputTelefone.value));
+        telefones.push(inputTelefone.value);
     
         let linha = '<tr>';
         linha += `<td>${inputNome.value}</td>`;
